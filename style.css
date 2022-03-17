@@ -1,4 +1,121 @@
-/* Estilo para el elemento con id navbarConfig */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
 #navbarConfig {
   height: 4em;
+}
+
+#CarritoCompras {
+  height: 5em;
+}
+
+#BannerBurger {
+  width: 100%;
+}
+
+#containerCards {
+  align-content: center;
+  padding: 2em;
+}
+
+#products {
+  align-content: center;
+  padding: 1em;
+}
+
+#tableItems {
+  align-content: center;
+  padding: 4em;
+}
+
+#itemsAdd {
+  padding-left: 1em;
+  padding-right: 1.5em;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#titleRestaurant {
+  font-family: "Dancing Script", cursive;
+
+  font-size: 3em;
+}
+
+#titleCategory {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#footerText {
+  font-weight: bold;
+}
+
+#itemPrice {
+  font-weight: bold;
+}
+
+#divButtoms {
+  margin-right: 1em;
+}
+#spanTotalItems {
+  font-weight: bold;
+}
+
+.imgFood {
+  margin-top: 1em;
+  height: 12em;
+}
+.card-title {
+  font-weight: bold;
+}
+
+.cardItem {
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+.btn-order {
+  margin-left: 0.5em;
+  border: 1px gray solid;
+}
+
+.btn-row {
+  margin-left: 0.7em;
+  background: #fdcd55;
+  border-radius: 3px;
+  font-weight: bold;
+  border: 1px solid #cccccc;
+}
+
+.btn-border {
+  border: 1px gray solid;
+}
+
+.btn-danger {
+  background: #8c162c;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.btn-light {
+  background: #708c32;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-weight: bold;
+  color: #ffff;
+}
+
+.btn-item {
+  background: #f2a950;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  color: black;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #c4c4c4;
 }
